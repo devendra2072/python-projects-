@@ -50,9 +50,17 @@
 # discnory :- ('key','value')=keypair   { }
 # duplicate key not allowed
 # duplicate value allowed   
-my_dict={'name':'dev','age':37}
-print(my_dict)
-print(id(my_dict))
-print(type(my_dict))
+# my_dict={'name':'dev','age':37}
+# print(my_dict)
+# print(id(my_dict))
+# print(type(my_dict))
 
 
+# set:-
+
+#order not fixed
+# my_set={10,20,30,10,20,50}
+my_set={10,20,30,10,20,50,'devendra','dev'}
+print(my_set)
+print(id(my_set))
+print(type(my_set))
