@@ -1,0 +1,20 @@
+# my_str="I LOVE PYTHON"
+# print(my_str[ : : ])
+# print(my_str[ : ])
+
+my_str="I LOVE PYTHON"
+print(my_str[ : :-1])
+print(my_str[2:-5:-1])
+print(my_str[-3:-8])
+print(my_str[4:5:1])
+print(my_str[4: :2])
+print(my_str[2: :4])
+print(my_str[ :5: ])
+print(my_str[-3:-2:-1])
+print(my_str[-3:-9:-2])
+print(my_str[4:55:20])
+print(my_str[10:-10:-1])
+print(my_str[-10:-10:-10])
+print(my_str[4:4:4])
+print(my_str[10:-10:-12])
+print(my_str[11:-12:-7])
