@@ -1,0 +1,10 @@
+x=10.3
+y=10.5
+z=x+y
+p=x+y
+q=x-y
+r=x*y
+print(type(z))
+print(type(p))
+print(type(q))
+print(type(r))

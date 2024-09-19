@@ -54,11 +54,29 @@
 # print(x)
 
 
-my_list=[10,20,30,40,'piya', 'riya']
-x=my_list.index(10)
-print(x)
+# my_list=[10,20,30,40,'piya', 'riya']
+# x=my_list.index(10)
+# print(x)
 
 # my_list=[10,20,30,40,'piya', 'riya']
 # my_list.pop(0)
 # print(my_list)
 
+# revers()
+
+# my_list=[5,25,10,20,30]
+# my_list.reverse()
+# print(my_list)
+
+# Sort()
+
+# my_list=[5,25,10,20,30]
+# my_list.sort()
+# my_list.reverse()
+# print(my_list)
+
+# disending order
+
+my_list=[5,25,10,20,30]
+my_list.sort(reverse=True)
+print(my_list)
