@@ -80,3 +80,8 @@
 my_list=[5,25,10,20,30]
 my_list.sort(reverse=True)
 print(my_list)
+
+
+x=[]
+print(x)
+print(type(x))
