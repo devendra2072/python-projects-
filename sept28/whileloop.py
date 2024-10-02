@@ -16,7 +16,7 @@
 
 # help(print)
 
-# wap to print even number upto n natural no
+# # wap to print even number upto n natural no
 
 # n=int(input("enter any number="))
 # i=1
@@ -104,3 +104,28 @@
 #     print(i,end="=")
 #    i=i+1
 # print(sum,end="")
+
+
+# wap to print even number upto n natural no
+
+n=int(input("enter any number="))
+i=1
+sum=0
+while i<=n:
+   sum=sum+i
+   if n%2==0:   # if given no is even
+       if i%2==0:  #even no
+           if i<n:
+               print(i,end='+')   #output ke liye
+           else:
+               print(i,end="=")
+   else:
+       if i%2==0:
+            if i<n-1:
+               print(i,end="+")
+            else:
+               print(i,end="=")
+   i=i+1
+print(sum)   
+   
+   

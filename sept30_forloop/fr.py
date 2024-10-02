@@ -9,7 +9,7 @@
 #         print(i,end="=")
 # print(sum)
 
-# wap to print of sum of even number
+# wap to print of sum of even number upto n natural number
 # sum=0
 # n=int(input("enter any number="))
 # for i in range(2,n+1,2):
@@ -20,6 +20,7 @@
 #        print (i,end="=")  
 # print(sum)
 
+# wap to print the of sum of n even numbers
 # sum=0
 # n=int(input("enter any nubmer="))
 # for i in range(1,n+1):
@@ -32,7 +33,7 @@
 
 
 
-# odd
+# wap to print the sum of n odd numbers
 
 # sum=0
 # n=int(input("enter any nubmer="))

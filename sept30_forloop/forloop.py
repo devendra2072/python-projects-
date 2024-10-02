@@ -1,11 +1,12 @@
-n=int(input("enter no = "))
-for i in range(1,11):
-    if i<n:
-        print(i,end=",")
-    else:
-        print(i)
+#  wap to print  the integr number
+# n=int(input("enter no = "))
+# for i in range(1,n+1):
+#     if i<n:
+#         print(i,end=",")
+#     else:
+#         print(i)
  
- 
+# wap to print the even number
 # n=int(input("enter any number="))
 # for i in range(2,n+1,2):
 #    if i<n:   # if given no is even
@@ -13,6 +14,31 @@ for i in range(1,11):
 #    else :
 #        print (i)  
 
+# wap to print the even number
+# n=int(input("enter any nubmer="))
+# for i in range(1,n+1):
+#     if i<n:
+#         print(2*i,end=",")
+#     else:
+#         print(2*i)
+
+
+# wap to print the sum of n odd numbers
+n=int(input("enter any nubmer="))
+for i in range(1,n+1):
+    if i<n:
+        print((2*i-1),end=",")
+    else:
+        print(2*i-1)
+
+
+# wap to print the sum of n odd numbers
+# n=int(input("enter any nubmer="))
+# for i in range(1,n+1):
+#     if i<n:
+#         print((2*i-1),end=",")
+#     else:
+#         print(2*i-1)
 
 # wap to print the 
 # n=int(input("enter any number="))
@@ -31,21 +57,7 @@ for i in range(1,11):
 #                print(i)
 #    i=i+1
 
-# n=int(input("enter any nubmer="))
-# for i in range(1,n+1):
-#     if i<n:
-#         print(2*i,end=",")
-#     else:
-#         print(2*i)
 
-
-# n=int(input("enter any nubmer="))
-# sum=0
-# for i in range(1,n+1):
-#     if i<n:
-#         print((2*i-1),end=",")
-#     else:
-#         print(2*i-1)
 
 # n=input("enter ypur name=")
 # vovel=conson=0
