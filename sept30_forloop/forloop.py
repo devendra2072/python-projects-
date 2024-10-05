@@ -1,4 +1,4 @@
-#  wap to print  the integr number
+# #  wap to print  the integr number
 # n=int(input("enter no = "))
 # for i in range(1,n+1):
 #     if i<n:
@@ -23,16 +23,16 @@
 #         print(2*i)
 
 
-# wap to print the sum of n odd numbers
-n=int(input("enter any nubmer="))
-for i in range(1,n+1):
-    if i<n:
-        print((2*i-1),end=",")
-    else:
-        print(2*i-1)
+# # # wap to print the n odd numbers
+# n=int(input("enter any nubmer="))
+# for i in range(1,n+1):
+#     if i<n:
+#         print((i-1),end=",")
+#     else:
+#         print(i-1)
 
 
-# wap to print the sum of n odd numbers
+# # wap to print the n odd numbers
 # n=int(input("enter any nubmer="))
 # for i in range(1,n+1):
 #     if i<n:
@@ -58,7 +58,6 @@ for i in range(1,n+1):
 #    i=i+1
 
 
-
 # n=input("enter ypur name=")
 # vovel=conson=0
 # for i in n:
@@ -67,22 +66,22 @@ for i in range(1,n+1):
 #     else:
 #         print("conson")   
 # print(n)
+
  
- 
- 
-# x=input("Enter your name=")
-# small=capi=digit=spc=0
-# for i in x:
-#     y=ord(x)
-#     if y>=97 and y<=122:
-#         small=small+1
-#     elif y>=65 and y<=90:
-#         capi=capi+1
-#     elif y>=48 and y<=57:
-#         digit=digit+1
-#     else:
-#         spc=spc+1
-# print(small,capi,digit,spc)
+x=input("Enter your name=")
+small=capi=digit=spc=0
+for i in x:
+    y=ord(x)
+    if y>=97 and y<=122:
+        small=small+1
+    elif y>=65 and y<=90:
+        capi=capi+1
+    elif y>=48 and y<=57:
+        digit=digit+1
+    else:
+        spc=spc+1
+print(small,capi,digit,spc)
 
     
     
+
