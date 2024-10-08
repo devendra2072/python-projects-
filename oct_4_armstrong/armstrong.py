@@ -62,3 +62,4 @@ while i<=(n-2):
     else:
         print(c)
     i=i+1
+    
