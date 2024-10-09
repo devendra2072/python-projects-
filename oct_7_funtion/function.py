@@ -37,16 +37,16 @@
 # r=add(p,q)
 # print(r)
 
-# def add(x,y):
-#     p=x+y
-#     q=x-y
-#     r=x*y
-#     s=x/y
-#     t=x//y
-#     u=x%y
-#     return(p,q,r,s,t,u)
-# p=int(input("enter any num="))
-# q=int(input("enter any num="))
-# a,s,m,d,f,mo=add(p,q)
+def add(x,y):
+    p=x+y
+    q=x-y
+    r=x*y
+    s=x/y
+    t=x//y
+    u=x%y
+    return(p,q,r,s,t,u)
+p=int(input("enter any num="))
+q=int(input("enter any num="))
+a,s,m,d,f,mo=add(p,q)
 # print(add(p,q))
-# print(a,s,m,d,f,mo)
+print(a,s,m,d,f,mo)
