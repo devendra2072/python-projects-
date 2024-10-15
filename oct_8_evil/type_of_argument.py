@@ -59,9 +59,9 @@
 
 # keywords variable length argument
 
-# def add(**n):
-#     print(n)
-#     print(type(n))
-#     for i in n.values():
-#         print(i)
-# add(name='dev', age=37, quli='m.tech')
+def add(**n):
+    print(n)
+    print(type(n))
+    for i in n.values():
+        print(i)
+add(name='dev', age=37, quli='m.tech')
