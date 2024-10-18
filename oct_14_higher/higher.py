@@ -19,10 +19,13 @@
 
 
 # def my_squr(n):
-#     if n==3 :
-#         return(n)+5
+#     count=0
+#     if count>=3 :
+#         count=count+1
+#         return n+5
 #     else:
-#         return(n)+10
+#         count=count+1
+#         return n+10
 # my_list=[1,2,3,4,5]
 # x=map(my_squr,my_list)
 # print(x)
@@ -69,14 +72,14 @@
 # import functools
 # my_list=[1,2,3,5,4]
 # def my_max(x,y):
-#     if x<y:
+#     if x>y:
 #         return x
 #     else:
 #         return y
 # x=functools.reduce(my_max, my_list)
-
 # print(x)
 
+# multiply
 # import functools
 # my_list=[1,2,3,5,4]
 # def my_max(x,y):
