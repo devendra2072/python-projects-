@@ -1,7 +1,7 @@
 # higher order function 
 # def my_squr(n):
 #     return n**2
-# squre
+# # squre
 # my_list=[1,2,3,4,5]
 # x=map(my_squr,my_list)
 # print(x)
@@ -130,7 +130,7 @@
 # print(x(n))
 
 
-my_list = [1,2,3,4,5]
-print(list(map(lambda x: x**2, my_list)))
+# my_list = [1,2,3,4,5]
+# print(list(map(lambda x: x**2, my_list)))
 
-print(list(map(lambda x:"even" if x%2==0 else "odd",my_list)))
+# print(list(map(lambda x:"even" if x%2==0 else "odd",my_list)))
