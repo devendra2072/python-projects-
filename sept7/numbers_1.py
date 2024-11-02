@@ -44,9 +44,10 @@
 # print(x<<2)
 
 # right shift '>>'
-x=10
-print(x>>1)
-print(x>>2)
+# x=10
+# print(x>>1)
+# print(x>>2)
 # x=100
 # print(bin(x))
 # print(x>>3)
+

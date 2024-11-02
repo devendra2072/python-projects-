@@ -51,7 +51,7 @@
 # print(my_set)
 
 # discard():-other object use not error
-my_set={'a','b','c','d'}
-my_set.discard('e')
-print(my_set)
+# my_set={'a','b','c','d'}
+# my_set.discard('e')
+# print(my_set)
 

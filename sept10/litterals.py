@@ -42,10 +42,10 @@
 # print(type(my_list1),type(my_list2),type(my_list3))
 
 # tuple:- colllection of homogeneous / hetrogeneous object ()
-my_tuple=(10,'devndra,',30,'dev')
-print(my_tuple)
-print(id(my_tuple))
-print(type(my_tuple))
+# my_tuple=(10,'devndra,',30,'dev')
+# print(my_tuple)
+# print(id(my_tuple))
+# print(type(my_tuple))
 
 # discnory :- ('key','value')=keypair   { }
 # duplicate key not allowed

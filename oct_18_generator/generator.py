@@ -34,7 +34,7 @@
 #         i=i+1
 # n=int(input("enter any num="))
 # var = gen(n)
-# # print(var)
+# print(var)
 
 def gen(n):
     i=1

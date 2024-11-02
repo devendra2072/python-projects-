@@ -1,0 +1,7 @@
+f=open('new1.py','a')
+print(f.name)
+print(f.mode)
+print(f.encoding)
+print(f.close)
+print(f.readable())
+print(f.writable())
