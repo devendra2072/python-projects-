@@ -7,7 +7,7 @@
 # z2=my_module.sub(p,q)
 # print(z1,z2)
 
-# from ka use module ko light weight banane bhi banate hai sath main call bhi karte hai
+# from ka use module ko light weight bhi banate hai sath main call bhi karte hai
 # (* ) ka use all ke liye hota  hai 
 # from my_module import add ,sub,x,y
 # print(x,y)
@@ -15,11 +15,13 @@
 # z2=sub(x,y)
 # print(z1,z2)
 
-# from my_module import *
-# print(x,y)
-# z1=add(x,y)
-# z2=sub(x,y)
-# print(z1,z2)
+from my_module import *
+print(x,y)
+z1=add(x,y)
+z2=sub(x,y)
+z3=multi(x,y)
+z4=div(x,y)
+print(z1,z2,z3,z4)
 
 
 
