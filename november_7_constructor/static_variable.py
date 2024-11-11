@@ -1,7 +1,7 @@
 # 9/11/2024
 # static variable:-  aisa variable jiski object badlne ke sath value na badle /na change kare static variable hota hai hota hai
 # 3 types of method :- instance method ,2 class method , 3 static method 
-# static method :- class se koi matlab nahi hota hai hai , normal method hai
+# static method :- class se koi matlab nahi hota hai , normal method hai
 # class Student:
 #     school ='SHSS'
 #     def __init__(self,name):
@@ -46,7 +46,7 @@
 #     @staticmethod
 #     def new2():
 #         Student.subject3='physics'
-#     def display(self):          # yaha 'self' na likhe to static aur likh dete hai hai instance variable hai
+#     def display(self):          # yaha 'self' na likhe to static method hai  aur likh dete hai hai instance method hai
 #         print(Student.city)
 #         print(Student.school)
 #         print(obj.name)
@@ -56,14 +56,12 @@
 #         print(Student.subject5)
 #         print(obj.subject4)
 #         # print(self.name)
-             
 # obj=Student('devendra')
 # obj.new()
 # obj.new1()
 # obj.new2()
 # obj.subject4='sanskrit'
 # Student.subject5='english'
-
 # obj.display()
 
 

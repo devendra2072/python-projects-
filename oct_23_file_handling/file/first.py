@@ -11,7 +11,7 @@ writeable()=>true
 # write mode 
 # single line ka data write karna ho tab 
 # f=open('n2.doc','x') 
-# f.write("hello,This is 'devendra' kurwe")
+# f.write("hello,This is 'dev' kurwe")
 
 # append mode 
 # f=open('n2.doc','a') 
@@ -20,8 +20,14 @@ writeable()=>true
 # f.writelines(data)
 # f.close()
 
-# read method read all data 
+'''
+read() => ak sath sara data read hota hai
+readline()=> single line data read hota hai
+readlines()=>multiline of data read hota hai is formate main [ shhfafjaja]
+readable()=>true
+'''
 
+# read method read all data 
 # f=open('n2.doc','r')
 # data = f.read()  # read all data
 # print(data)
@@ -61,21 +67,21 @@ writeable()=>true
 # f=open('n2.doc','rb')
 # print(f.seek(2,1))
 
-# f=open('n2.doc','rb')
-# print(f.tell())
-# data=f.read(10)
-# print(data)
-# print(f.tell())
-# f.seek(0)
-# print(f.tell())
-# data=f.read(20)
-# print(data)
-# print(f.tell())
-# # f.seek(5,1)
-# # f.seek(-5,1)
-# f.seek(-5,2)
-# print(f.tell())
-# print(data.strip())  
+f=open('n2.doc','rb')
+print(f.tell())
+data=f.read(10)
+print(data)
+print(f.tell())
+f.seek(0)
+print(f.tell())
+data=f.read(20)
+print(data)
+print(f.tell())
+f.seek(5,1)
+f.seek(-5,1)
+f.seek(-5,2)
+print(f.tell())
+print(data.strip())  
 
 
 

@@ -1,4 +1,4 @@
-# constructor in spacial method hai 07/011/2024
+# constructor in spacial method hai 07/11/2024
 
 # class Student:
 #     def __init__(self):
@@ -19,7 +19,7 @@
 #     def add():
 #         print("without constructor called")
 # obj=Student()
-# # Student.add()
+# Student.add()
 # obj.__init__()
 # obj.__init__()
 # obj.__init__()
@@ -42,7 +42,6 @@
 # class Student:
 #     def __init__(self):
 #         print("constructor called")
-        
 #     def __init__(self,name):
 #         print("name------")
 #     def __init__(self,name,age):
@@ -51,12 +50,9 @@
 #         print("name+age+quality")
 # obj1=Student("devendra",21,"b.tech")
 
-
-
 # class Student:
 #     def __init__(self,x):
-#         print("constructor called")
-        
+#         print("constructor called")  
 #     def __init__(self,name):
 #         print("name------")
 #     def __init__(self,name,age):

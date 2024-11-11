@@ -7,15 +7,20 @@
 
 # 1 instance variable:- aisa variable jiski object badlne ke sath value bhi badal jaye instance variable hota hai
 # declearation 
+# class Studant:
+#     def __init__(self,name):
+#         print("hello")
+# obj1=Studant('devendra')
+# obj2=Studant('abhi')
+
 # class Student:
 #     def __init__(self,name):     #inside construtor
 #         self.name=name
-#     def show(self):             ##inside instance method
+#     def show(self):             #inside instance method
 #         self.age=37
 #     def display(self):
 #         print("Name:",self.name)
 #         print("Age:",self.age)
-
 # obj=Student("devendra")
 # obj.show()
 # obj.display()
