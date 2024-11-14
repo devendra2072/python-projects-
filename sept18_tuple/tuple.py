@@ -20,15 +20,15 @@
 # in built method 
 
 # my_tuple=(10,20,30,'dev')
-# my_tuple.index(10)
+# # my_tuple.index(10)
 # print(my_tuple.index('dev'))
 
 
-# # count():-
+# count():-
 # my_tuple=(10,20,30,'dev')
 # print(my_tuple.count(10))
 
 
-x=()
-print(x)
-print(type(x))
+# x=()
+# print(x)
+# print(type(x))
