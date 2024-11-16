@@ -1,12 +1,12 @@
 # // 1  inheritance 
 # // i. single-level inheritance
-# class a:
+# class a:  # base class
 #      def home(self):
 #           print("H.N.-SA")
 #      def car(self):
 #           print("Maruti-800")
 
-# class b(a):
+# class b(a): #subclass
 #      def mydata(self):
 #           print("my details..")
 # obj=b()
