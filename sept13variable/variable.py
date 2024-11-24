@@ -17,6 +17,9 @@
 
 
 
+
+
+
 # Agar hum 8 ko 10 se divide karte hain, to:
 # Division: 8 ko 10 se divide karne par quotient (poora hissa) 0 aata hai, kyunki 10, 8 se bada hai.
 # Remainder: Jab aap 8 ko 10 se divide karte hain, to remainder 8 hi bachta hai, kyunki 10 ko 8 se divide nahi kiya ja sakta.
