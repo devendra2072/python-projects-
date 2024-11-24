@@ -19,12 +19,12 @@
 
 # ====================================pelindrom==============
 
-# n=input("enter any value=")
-# x=n[::-1]
-# if n==x:
-#     print("given value is pelindrom")
-# else:
-#     print("given value is not pelindrom")
+n=input("enter any value=")
+x=n[::-1]
+if n==x:
+    print("given value is pelindrom")
+else:
+    print("given value is not pelindrom")
 
 # =================second method
 # ===========================reverse order====================

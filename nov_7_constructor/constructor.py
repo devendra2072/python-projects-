@@ -63,11 +63,43 @@
 
 
 # self and object ka address same hai , and self object ka address hold karta hai , sme bihaviour hota hai
-class Student:
-    def add(self):            #self
-        print("hello")
-        print(id (self))
+# class Student:
+#     def add(self):            #self
+#         print("hello")
+#         print(id (self))
         
-obj=Student()
-obj.add()
-print(id(obj))
+# obj=Student()
+# obj.add()
+# print(id(obj))
+
+
+
+
+
+
+
+
+class Student: 
+    ''' This class is develop by Neeraj for demo'''     
+    def __init__(self,name,roll,marks):      
+         self.name=name
+         self.roll=roll
+         self.marks = marks     
+    def __init__(self,name,roll,marks,city):         
+         self.name=name
+         self.roll=roll
+         self.marks = marks
+         self.city = city 
+    def display(self): 
+        print("my name is", self.name)
+        print("my roll no is", self.roll)   
+        print("my marks is", self.marks)     
+        print("my city is", self.city) 
+# help(Student) 
+obj1= Student("Neeraj",101,84) 
+obj1= Student("Neeraj",101,84,"Bhopal") 
+print(obj1.name)
+print(obj1.roll) 
+print(obj1.marks) 
+print(Student.__doc__) 
+obj1.display()  

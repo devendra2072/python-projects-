@@ -44,3 +44,27 @@
 #     else:
 #         print((2*i-1),end="=")
 # print(sum)
+
+
+
+# number = int(input("Enter a number = "))
+
+# # Print the multiplication table using a for loop
+# print(f"Multiplication Table for {number}:")
+# for i in range(1, 11):  # Loop from 1 to 10
+#     result = number * i
+#     # print(f"{number} x {i} = {result}")
+#     print(result)
+
+# anagram using python=======
+
+a = "devendra"
+b = "vendrad"
+p = [a[i] for i in range(0,len(a))]
+p.sort()
+r = [b[i] for i in range(0,len(b))]
+r.sort()
+if p==r:
+    print("this is anagram")
+else:
+    print("not anagram")

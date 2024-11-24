@@ -40,7 +40,11 @@
 # x=10
 # y=20
 # x,y=y,x
-# print(f'value of x is {x} and Value of y is {y}')
+# print(f'value of x is {x} and Value of y is {y}')  
+x=10
+y='20'
+# x,y=y,x
+print(f'value of x is {x} and Value of y is {y}')
 
 # x=int(input("enter num="))
 # y=int(input("enter num="))

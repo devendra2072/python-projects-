@@ -43,6 +43,8 @@
 # print('ea' in my_str)
 
 
-x=10
-y='10'
-print(x is y)
+# x=10
+# y='10'
+# print(x is y)
+
+

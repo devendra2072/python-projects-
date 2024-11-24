@@ -68,19 +68,19 @@
 # print(n)
 
  
-x=input("Enter your name=")
-small=capi=digit=spc=0
-for i in x:
-    y=ord(x)
-    if y>=97 and y<=122:
-        small=small+1
-    elif y>=65 and y<=90:
-        capi=capi+1
-    elif y>=48 and y<=57:
-        digit=digit+1
-    else:
-        spc=spc+1
-print(small,capi,digit,spc)
+# x=input("Enter your name=")
+# small=capi=digit=spc=0
+# for i in x:
+#     y=ord(x)
+#     if y>=97 and y<=122:
+#         small=small+1
+#     elif y>=65 and y<=90:
+#         capi=capi+1
+#     elif y>=48 and y<=57:
+#         digit=digit+1
+#     else:
+#         spc=spc+1
+# print(small,capi,digit,spc)
 
     
     

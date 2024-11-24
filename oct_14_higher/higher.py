@@ -98,6 +98,9 @@
 # x(n1,n2)
 # x=lambda x,y:x+y
 # print(x(n1,n2))
+# x=lambda p,q,r:3*p+4*q+5*r+5 
+# print(x(10,20,30)) 
+
 
 # 1 to 10 number
 # n=int(input("enter any number="))

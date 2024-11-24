@@ -1,6 +1,9 @@
 # range inbuilt function in generate to collection
 #  same pattern colllection generate
 
+# 1 even kr liye use karte hai
+# 2 even kr liye use karte hai
+
 # x=range(1,11,1)
 # print(tuple(x))
 # print(set(x))
@@ -27,10 +30,10 @@
 # print(list(x))
 
 # generate m value number even number
-# x=int(input("enter any number"))
-# n=(x*2)+1
-# n=range(2,n,2)
-# print(list(n))
+x=int(input("enter any number"))
+n=(x*2)+1
+n=range(2,n,2)
+print(list(n))
 
 # generate m value number odd number
 # x=int(input("enter any number"))

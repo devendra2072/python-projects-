@@ -12,11 +12,11 @@
 # obj1.new1()
 
 
-class student:
-    def __init__(self,name):
-        print("constructor called")
-    def neew(self):
-        print(id(self))
-obj=student("dev")
-obj.neew()
-print(id(obj))    
+# class student:
+#     def __init__(self,name):
+#         print("constructor called")
+#     def neew(self):
+#         print(id(self))
+# obj=student("dev")
+# obj.neew()
+# print(id(obj))    
